@@ -11,13 +11,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HomeComponent } from './components/home/home.component';
+import { HeroeComponent } from './components/heroes/heroe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HeroesComponent,
-    HomeComponent
+    HomeComponent,
+    HeroeComponent
   ],
   imports: [
     BrowserModule,
