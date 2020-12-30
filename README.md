@@ -1,27 +1,29 @@
-# MyApp
+# Heroes SPA (Single Page Application)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
 ## Development server
 
+Run `npm install`
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This is a list of heroes learning project in which we learn the basics of
 
-## Build
+1. Routes
+  - <router-outlet>
+  - RouterLink
+  - RouterLinkActive
+  - ActivatedRoute
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+2. Basic Service Configuration
 
-## Running unit tests
+3. @Input, @Output, EventEmitter
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. Components
 
-## Running end-to-end tests
+5. External style lybraries like bootstrap
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+6. Angular Interpolation and alias
