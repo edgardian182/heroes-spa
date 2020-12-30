@@ -1,0 +1,6 @@
+<div class="container animated fadeIn" style="margin: 20px auto 20px auto">
+  <h2>Searching for: {{ expression }}</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <app-heroe-card [heroe]="heroe" [index]="heroe.idx" *ngFor="let heroe of heroes; let i = index" (selectHeroe)="showHereo($event)"></app-heroe-card>
+  </div>
+</div>
